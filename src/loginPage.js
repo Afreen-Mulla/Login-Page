@@ -3,8 +3,7 @@ import {Container,Form,Button} from 'react-bootstrap';
 import axios from 'axios';
 // import Home from './Home';
 class Login extends Component {
-  // const [name, setName]= useState("");
-  // const [password, setPassword]= useState("");
+  
   submitForm= e =>{
     e.preventDefault();
     const data ={
@@ -22,13 +21,7 @@ class Login extends Component {
       console.log(err);
     }
   )
-  //   if({name} ==="test" && {password}==="test123"){
-  //     <Home/>
-
-  //   }else{
-  //     alert("please enter valid user authentication")
-  //   }
-  // }
+  
 }
   render(){
     return(
